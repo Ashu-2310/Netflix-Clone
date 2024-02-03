@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -46,4 +46,9 @@ nav button{
     color: white;
     position: relative;
     font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+}
+.mtext :first-child{
+    font-size: 48px;
+    font-weight: bolder;
 }
