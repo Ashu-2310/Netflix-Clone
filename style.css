@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.main{
+
+.main {
     background-image: url("assets/images/background.jpg");
     height: 90vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px,100vw);
+    background-size: max(1200px, 100vw);
 }
-.main .box{
+
+.main .box {
     height: 90vh;
     width: 100%;
     opacity: 0.5;
@@ -19,7 +22,8 @@
     position: absolute;
     top: 0;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     max-width: 75vw;
@@ -27,17 +31,20 @@ nav{
     justify-content: space-between;
     height: 60px;
 }
-#logo{
-    color:red;
+
+#logo {
+    color: red;
     width: 150px;
     position: relative;
     z-index: 10;
 }
-nav button{
+
+nav button {
     position: relative;
     z-index: 10;
 }
-.mtext{
+
+.mtext {
     height: 100%;
     display: flex;
     align-items: center;
@@ -47,16 +54,23 @@ nav button{
     position: relative;
     font-family: 'Martel Sans', sans-serif;
     gap: 23px;
+    padding: 30px;
 }
-.mtext> :first-child{
+
+.mtext> :first-child {
     font-size: 48px;
     font-weight: bolder;
+    text-align: center;
 }
-.mtext> :nth-child(2){
+
+.mtext> :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
 }
-.mtext> :nth-child(3){
+
+.mtext> :nth-child(3) {
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
 }
