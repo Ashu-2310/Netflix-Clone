@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -84,15 +84,21 @@ nav button {
 .btn{
     font-family: 'Martel Sans', sans-serif;
     font-weight: 200;
-    padding: 2px 10px;
+    padding: 2px 30px;
     border-radius: 8px;
     font-size: 0.875rem;
+    background: rgba(28, 27, 27, 0.6);
+    color: white;
+    border: 1px solid rgba(253, 253, 253, 0.6);
+    border-radius: 4px;
+    cursor: pointer;
 }
 .btn-red-si{
     color: white;
     background-color: rgb(229,9,20);
     font-size: 0.875rem;
     font-weight: 500;
+    border: none;
 }
 .btn-red-gs{
     color: white;
@@ -100,6 +106,7 @@ nav button {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 500;
+    border:none;
 }
 .main input{
     line-height: 1.5;
@@ -118,4 +125,31 @@ nav button {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+.eng-si{
+    display: flex;
+    gap:15px
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.fs-img{
+    position: relative;
+}
+.fs-img img{
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+.fs-img video{
+    position: absolute;
+    top: 87px;
+    right: 0;
 }
