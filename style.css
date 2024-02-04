@@ -22,8 +22,11 @@
     position: absolute;
     top: 0;
 }
+body{
+    background-color: black;
+}
 
-nav {
+nav{
     display: flex;
     align-items: center;
     max-width: 75vw;
@@ -54,7 +57,7 @@ nav button {
     position: relative;
     font-family: 'Martel Sans', sans-serif;
     gap: 23px;
-    padding: 30px;
+    padding: 0 30px;
 }
 
 .mtext> :first-child {
@@ -73,4 +76,8 @@ nav button {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+.line{
+    height: 10px;
+    background-color:rgb(35, 35, 35);
 }
